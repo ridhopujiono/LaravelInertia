@@ -1,0 +1,17 @@
+=====================SERVER===================
+1. composer require inertiajs/inertia-laravel
+2. php artisan inertia:middleware
+3. app.blade.php
+4. php artisan make:controller PagesController
+==============================================
+
+====================CLIENT====================
+1. npm install -y
+2. npm install @inertiajs/inertia @inertiajs/inertia-vue
+3. npm install vue
+4. npm install vue-template-compiler vue-loader@^15.9.7 --save-dev --legacy-peer-deps
+5. npm run dev
+
+===================TAILWIND===================
+
+https://dev.to/geowrgetudor/setting-up-laravel-with-inertiajs-vuejs-tailwind-css-21pc
